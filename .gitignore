@@ -2,7 +2,7 @@
 node_modules/
 jspm_packages/
 venv/
-.env*
+.env
 bin/
 obj/
 
