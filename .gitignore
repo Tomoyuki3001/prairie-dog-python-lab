@@ -1,0 +1,31 @@
+# Dependency directories (The heavy stuff)
+node_modules/
+jspm_packages/
+venv/
+.env*
+bin/
+obj/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+# Editor folders
+.vscode/
+.idea/
+*.swp
