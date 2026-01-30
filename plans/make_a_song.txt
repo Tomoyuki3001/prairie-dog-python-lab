@@ -1,0 +1,13 @@
+Project: Make a Song
+Difficulty: Medium
+
+Steps:
+- Define Song Concept & Theme: Brainstorm ideas for the song's message, mood, genre, and potential lyrical themes.
+- Develop Core Melody & Chord Progression: Create the foundational melody and accompanying chord progression using an instrument (e.g., guitar, piano) or a Digital Audio Workstation (DAW).
+- Outline Song Structure: Decide on the overall arrangement of the song (e.g., Verse-Chorus-Verse-Chorus-Bridge-Chorus-Outro).
+- Write Lyrics (Draft 1): Develop initial lyrics for the main sections of the song, focusing on the verse and chorus.
+- Record Basic Instrumental Tracks (Demo): Lay down foundational instrumental parts (e.g., drums, bass, main chords, lead instrument) using recording software or a DAW.
+- Record Lead Vocals (Demo): Record the primary vocal performance, aligning it with the instrumental tracks.
+- Record Backing Vocals/Harmonies (Optional Demo): Add any desired harmonies or backing vocal layers.
+- Rough Mix & Balance: Adjust volume levels, apply basic panning, and potentially light EQ or compression to create a coherent demo mix.
+- Review and Refine: Listen critically to the complete demo, identify areas for improvement, and iterate on lyrics, melody, or arrangement.
