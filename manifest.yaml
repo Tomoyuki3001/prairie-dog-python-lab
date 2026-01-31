@@ -1,0 +1,25 @@
+_metadata:
+  major_version: 1
+  minor_version: 1
+display_information:
+  name: DX Architect
+  description: AI-powered assistant for technical transformation plans.
+  background_color: "#2c3e50"
+features:
+  bot_user:
+    display_name: DX Architect
+    always_online: true
+  slash_commands:
+    - command: /architect
+      description: Generate a technical plan using Gemini.
+      usage_hint: "[your project goal]"
+oauth_config:
+  scopes:
+    bot:
+      - commands
+      - chat:write
+      - app_mentions:read
+settings:
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
