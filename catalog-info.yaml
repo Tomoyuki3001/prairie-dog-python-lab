@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dx-architect-bot
+  description: AI Architect Bot that integrates Gemini with Slack for DX planning.
+  annotations:
+    github.com/project-slug: Tomoyuki3001/prairie-dog-python-lab
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - slack-sdk
+    - generative-ai
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Tomoyuki3001
