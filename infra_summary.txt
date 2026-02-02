@@ -1,0 +1,5 @@
+Platform: AI Architect Bot
+Version: 1.0.0
+Environment: Local Development
+Features: Slack Integration, Gemini AI, Logging
+Owner: Tomoyuki
