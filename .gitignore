@@ -1,7 +1,7 @@
 # Dependency directories (The heavy stuff)
 node_modules/
 jspm_packages/
-venv/
+.venv/
 .env
 bin/
 obj/
@@ -29,3 +29,17 @@ pip-wheel-metadata/
 .vscode/
 .idea/
 *.swp
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.lock.hcl
+terraform.exe
+
+# Output files
+infra_summary.txt
+
+# Logs and caches
+*.stackdump
+platform.log
