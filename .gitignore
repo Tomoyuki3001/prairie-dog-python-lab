@@ -1,7 +1,7 @@
 # Dependency directories (The heavy stuff)
 node_modules/
 jspm_packages/
-venv/
+.venv/
 .env
 bin/
 obj/
