@@ -2,12 +2,17 @@ import os
 import re
 import logging
 from datetime import datetime
-from slack_bolt import App
-from slack_bolt.adapter.socket_mode import SocketModeHandler
 from dotenv import load_dotenv
 from app import generate_plan_with_gemini
+from slack_bolt import App
+from slack_bolt.adapter.socket_mode import SocketModeHandler
 
 load_dotenv()
+
+slack_app_token = os.environ.get("SLACK_APP_TOKEN")
+slack_bot_token = os.environ.get("SLACK_BOT_TOKEN")
+
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -19,7 +24,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
+app = App(token=slack_bot_token)
 
 
 def split_text(text, max_length=2900):
@@ -120,5 +125,5 @@ def handle_command(ack, body, say):
 
 
 if __name__ == "__main__":
-    handler = SocketModeHandler(app, os.environ["SLACK_APP_TOKEN"])
+    handler = SocketModeHandler(app, slack_app_token)
     handler.start()
