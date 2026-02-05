@@ -140,6 +140,8 @@ def output_plan(result):
 
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    app.start(port=port, host="0.0.0.0")
     while True:
         user_input = input(
             f"\nWhat is your goal? (or type '{colored('quit', 'red')}' to exit): "
