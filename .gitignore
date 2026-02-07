@@ -32,14 +32,19 @@ pip-wheel-metadata/
 
 # Terraform
 .terraform/
+*.tfvars
 *.tfstate
 *.tfstate.backup
 terraform.lock.hcl
 terraform.exe
+gcp-key.json
 
 # Output files
 infra_summary.txt
 
 # Logs and caches
 *.stackdump
-platform.log
+*.log
+
+# Other
+gcp-key.json
