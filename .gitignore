@@ -35,7 +35,7 @@ pip-wheel-metadata/
 *.tfvars
 *.tfstate
 *.tfstate.backup
-terraform.lock.hcl
+*.hcl
 terraform.exe
 gcp-key.json
 
